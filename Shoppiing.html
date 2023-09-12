@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shoping Store</title>
+</head>
+
+<body>
+    <h1 style="text-align:center;  font-size:60px;  color: crimson;">Store</h1>
+    <div style="height: 100px;">
+        <form>
+
+            <input type="text" class="pname" placeholder="Enter your Product Name" style="width: 220px; height: 30px; margin-left: 10px; border-radius: 20px;"/>
+            <select class="pcatagory" style="width: 220px; height: 30px; margin-left: 10px; border-radius: 20px;">
+                <option class="na">Product Catagory</option>
+                <option class="1">Chocolates</option>
+                <option class="2">Electronics</option>
+                <option class="3">Grocery</option>
+                <option class="4">Medicines</option>
+                <option class="5">Children Toys</option>
+            </select>
+            <input type="number" class="pprice" placeholder="Price" style="width: 220px; height: 30px; margin-left: 10px; border-radius: 20px;"/>
+            <input type="number" class="pquantity" placeholder="Quantity" style="width: 220px; height: 30px; margin-left: 10px; border-radius: 20px;"/>
+            <button type="submit" class="psubmit" style="width: 260px; height: 30px; margin-left: 10px; border-radius: 20px; background-color: red; color: white;">Press to Submit</button>
+        
+        </form>
+    </div>
+    <div style="border: 2px black solid; height: 300px; margin-top: 25px;">
+        <h3>Name-Catagory-Price-Quantity-Total -- Purchase Button - id </h1>
+        <ul class="item_list">
+        </ul>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <script src="Shopping.js"></script>
+</body>
+
+</html>
